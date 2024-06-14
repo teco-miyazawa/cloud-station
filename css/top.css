@@ -1,0 +1,90 @@
+
+#mainvisual {
+	min-height: 100vh;
+	/*background-color: unset;
+	background-image: unset;*/
+}
+
+@media screen and (max-width:640px) {
+	#wrapper, html, body, #main {
+		min-height: 500px;
+	}
+	#mainvisual {
+		height: 400px;
+		min-height: initial;
+	}
+	.mainvisual_wrap {
+		height: 400px;
+	}
+	#main,
+	#main .inner{
+		width:100%;
+		min-width:100%;
+	}
+	#main{
+		background-size: auto 100% !important; 
+	}
+	#main h1, #main h1 img {
+	width: 168px;
+	height: 102px;
+	}
+	#main h1 {
+		top: 144px;
+		padding:0;
+	}
+	#main h2 {
+		top: 258px;
+		padding: 0 12%;
+	}
+	.top_greet .text {
+		width:88%;
+		padding:0 6%;
+	}
+	/*.top_greet .box{
+		padding:70px 0 480px;
+	}*/
+	ul.btn_area_main li, ul.btn_area_main li:nth-of-type(2) {
+		width: 100% !important;
+	}
+	ul.btn_area_main {
+		width: 100%;
+	}
+	ul.btn_area_main {
+		bottom: 0px;
+	}
+	.top_experience {
+		margin-bottom: 50px;
+	}
+	.top_gallery_btn2 {
+		width: 100%;
+	}
+	.top_greet_img {
+		position:relative !important;
+		right:0;
+		top:0;
+		bottom:0;
+		width: 210px;
+		height: auto;
+		margin:0 auto 30px !important;
+	}
+	.top_greet_doctor{
+		float:none;
+		margin-bottom:20px;
+	}
+	.top_greet_doctor dd span{
+		margin-right:0;
+	}
+	.top_greet .btn01{
+		float:none;
+		margin:auto;
+	}
+}
+@media screen and (min-device-height: 280px) and (max-device-height: 414px) and (orientation : landscape)  {
+	#mainvisual .mainvisual_wrap_pc h2 {
+		font-size: 55px !important;		
+		line-height: 1.1 !important;	
+	}
+    .mainvisual_yt_btn {
+    	bottom: -140px !important;
+	}
+}

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/top.css">
+
+    <link rel="stylesheet" href="js/slick/slick.css">
+<link rel="stylesheet" href="js/slick/slick-theme.css">	
+<style>
+    .logo{
+        position: relative;
+    }
+    .logo img{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 0;
+        left: 2%;
+    }
+    .top_visual{
+        min-height: 100vh;
+        margin-bottom: 100px;
+    }
+    .top_visual_head{
+    display: flex;
+    width: 100%;
+}
+.top_visual_left{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top_visual_left h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.top_visual_left p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.top_visual_banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.top_visual_btn{
+    display: flex;
+    flex-direction: column;
+}
+.top_visual_btn a::after{
+    content: "＞";
+    margin-left: 5px;
+}
+.top_visual_right{
+    width: 50%;
+    position: relative;
+}
+.top_visual_right h3{
+    position: absolute;
+    top: 10%;
+    left: -5%;
+}
+.top_visual_right span{
+    color: #5e78ff !important;
+    display: block;
+    margin-bottom: 5px;
+    padding: 0 12px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.007em;
+    background-color: #000;
+    width: 300px;
+}
+.top_visual_right em{
+    color: #fff;
+    display: inline-block;
+    padding: 0 11px;
+    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.007em;
+    line-height: 35px;
+    background-color: #000;
+}
+.top_visual_imgInner_subcopy{
+    text-align: center;
+    font-size: 26px;
+    width: 90%;
+}
+.top_visual_right p{
+    text-align: center;
+    width: 90%;
+    padding: 10px 0;
+}
+.top_visual_btn a{
+    padding: 5px 20px;
+}
+.download_btn{
+    background-color: #ffc11a;
+    margin-bottom: 10px;
+}
+.form_btn{
+    border: 3px solid #ffc11a;
+}
+.teco_info_bnr_block{
+    width: 95%;
+    margin: 0 auto;
+}
+.top_bnr{
+    background-color: #ffc11a;
+    padding: 20px 30px;
+}
+</style>
+</head>
+<body>
+    <ul class="btn_area_main">
+        <li><a class="top_gallery_btn2" href="access.html#reserve">リアル体験予約・アクセス</a></li>
+        <li><a class="top_gallery_btn2 time2" href="https://meetings.hubspot.com/yuki-etsumori/60" target="_blank" rel="noopener noreferrer">オンラインで相談したい</a></li>
+        <!--<li><a class="top_gallery_btn2 time2" href="https://tecodesign.youcanbook.me/" target="_blank" rel="noopener noreferrer">オンラインで相談したい</a></li>-->
+    </ul>
+    <header>
+        <!-- InstanceBeginEditable name="head_logo" -->
+            <div class="logo"><a href="index.html"><img src="images/logo.svg" alt="CLOUD STATION"></a></div>
+        <!-- InstanceEndEditable -->
+        <!-- ↓PCのナビここから↓ -->
+        <nav class="">
+            <ul>
+                <li class=""><a href="index.html">ホーム</a></li>
+                <li><a href="first.html">はじめての方へ</a></li>
+                <li><a href="showroom.html">ショールームへ行く</a></li>
+                <li><a href="service.html">取り扱いサービス一覧</a></li>
+                <li><a href="seminar.html">セミナー</a></li>
+                <li><a href="https://cloud-station.jp/blog/" class="nav_slidebtm no_link">ブログ記事</a>
+                </li>
+                <li><a href="https://cloud-station.jp/blog/movies/">Youtube</a></li>
+            </ul>
+        </nav>
+        <!-- ↑PCのナビここまで↑ --> 
+    </header>
+    <ul class="side_btn">
+        <li><a href="https://request.cloud-station.jp/request" target="_blank" rel="noopener noreferrer">お役立ち情報</a></li>
+        <li><a href="https://share.hsforms.com/1nB3S1Q__QnuxEkBdNpMRFAe03iy?__hstc=42843258.744ca855406e084ca342ef357a480083.1717483582670.1718252763269.1718321600307.10&amp;__hssc=42843258.1.1718321600307&amp;__hsfp=1157883805" target="_blank" rel="noopener noreferrer">お問い合わせ</a></li>
+        <li><a href="https://request.cloud-station.jp/request" target="_blank" rel="noopener noreferrer">お悩み解決</a></li>
+    </ul>
+    <main>
+        <div id="container">
+            <section class="top_visual">
+                <div>
+                    <!-- 上層 -->
+                    <div class="top_visual_head">
+                        <div class="top_visual_left">
+                            <h1>
+                                バックオフィスのみなさまへ<br>
+                                人事労務関連SaaSを体験できる<br>
+                                「クラウドステーション」
+                            </h1>
+                            <p>人事労務関連SaaSを実際に体験・比較できるショールームです。<br>
+                                マネーフォワード・freee人事労務・ジョブカン・<br>
+                                HRMOS • KING OF TIME • SmartHRなど<br>
+                                実際に触って比べていただけます。
+                            </p>
+                            <div class="top_visual_banner">
+                                <div class="top_visual_btn">
+                                    <a class="download_btn" href="">資料ダウンロード(無料)</a>
+                                    <a class="form_btn" href="">無料相談・お問い合わせ</a>
+                                </div>
+                                <div>
+                                    <img src="images/導入実績.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top_visual_right">
+                            <h3><span>SHOWROOM</span><em>ショールームで実体験</em></h3>
+                            <div class="top_visual_imgInner">
+                                <img src="images/top_experience_img01.jpg" alt="">
+                                <p class="top_visual_imgInner_subcopy">ショールムでクラウドサービスを体験できます</p>
+                                <p>協賛企業各社様のデモ環境を取り揃えておりますので、実際に来館して比較していただけます。弊社スタッフからの利用アドバイスも同時にこ案内可能です。タイムカードの各種打刻体験や、アナログ企業の労務業務も再現したコーナーもご用意しております。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- バナー一覧 -->
+                    <div class="teco_info_bnr_block">
+                        <div class="teco_info_bnr top_bnr">
+                            <ul>
+                                <li><a href="https://moneyforward.com/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr01.png" alt="マネーフォワード" width="150" height="50"></a></li>
+                                <li><a href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr04_2.png" alt="freee" width="150" height="50"></a></li>
+                                <li><a href="https://www.ieyasu.co/?__hstc=42843258.744ca855406e084ca342ef357a480083.1717483582670.1718252763269.1718321600307.10&amp;__hssc=42843258.1.1718321600307&amp;__hsfp=1157883805" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr05.png" alt="IEYASU" width="150" height="50"></a></li>
+                                <li><a href="https://www.kingtime.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr06.png" alt="KINGofTIME" width="150" height="50"></a></li>
+                                <li><a href="https://kitera-cloud.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr25.png" alt="KiteRa" width="150" height="50"></a></li>
+                                <li><a href="https://opluswork.com/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr08.png" alt="oplus" width="150" height="50"></a></li>
+                                <li><a href="https://www.hitomawari.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr11.png" alt="ヒトマワリ" width="150" height="50"></a></li>
+                                <li><a href="https://all.jobcan.ne.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr14.png" alt="ジョブカン" width="150" height="50"></a></li>
+                                <li><a href="https://bizer.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr15.png" alt="Bizer team" width="150" height="50"></a></li>
+                                <li><a href="https://www.recoru.in/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr019.png" alt="レコル" width="150" height="50"></a></li>
+                                <li><a href="https://www.fondesk.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr21.png" alt="fondesk" width="150" height="50"></a></li>
+                                <li><a href="https://ak4.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr22.png" alt="AKASHI" width="150" height="50"></a></li>
+                                <li><a href="https://byard.io/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr23.png" alt="BYARD" width="150" height="50"></a></li>
+                                <li><a href="https://www.obc.co.jp/bugyo-cloud" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr24.png" alt="OBC・奉行クラウド" width="150" height="50"></a></li>
+                                <li><a href="https://smarthr.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr26.png" alt="SmartHR" width="150" height="50"></a></li>
+                                <li><a href="https://hcm-jinjer.com/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr27.png" alt="jinjer" width="150" height="50"></a></li>
+                                <li><a href="https://www.seikotrust.jp/lp/employment-agreement/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr28.png" alt="セイコーソリューションズ株式会社" width="150" height="50"></a></li>
+                                <li><a href="https://manage.itcs.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr29.png" alt="株式会社ITCS" width="150" height="50"></a></li>
+                                <li><a href="https://www.yayoi-kk.co.jp/lp/kyuyo-meisai/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr30.jpg" alt="弥生給与Next" width="150" height="50"></a></li>
+                                <li><a href="https://onehr.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr31.png" alt="One人事" width="150" height="50"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+            </section><!-- .top_visual -->
+    
+            <section class="top_about">
+                <h2>このサイトでできること</h2>
+                <div class="top_about_text">
+                    <p>「CLOUD STATION」とはクラウド勤怠、クラウド給与サービスを中心とした人事労務関連クラウドを体験していただくプロジェクトです。「神楽坂ショールーム」「CLOUD STATION（本サイト）」「ワークショップ」を柱として、中小企業へテクノロジーを届ける、をミッションにしております。</p>
+                    <p>本サイト「CLOUD STATION」では、豊富なコンテンツによるクラウドサービスの比較、検討、ショールームの予約、取り扱いサービスの確認・問い合わせをおこなっていただけます。</p>        
+                </div>
+            </section><!-- .top_about -->
+        
+        
+            <section class="top_blog">
+                <div class="top_blog_tag">
+                    <h2>みんなの悩み</h2>
+                    <div class="top_blog_tag_list">
+                        <h3>Tags</h3>
+                        <div class="tag_load">
+                            <ul class="tag_list">
+                                <li><a href="https://cloud-station.jp/blog/tag/%e9%9a%9c%e5%ae%b3%e5%b9%b4%e9%87%91/">障害年金</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e6%8e%b2%e8%bc%89%e5%ae%9f%e7%b8%be/">掲載実績</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e7%a4%be%e4%bc%9a%e4%bf%9d%e9%99%ba%e5%8a%b4%e5%8b%99%e5%a3%ab%e3%81%ab%e3%82%88%e3%82%8b%e8%a8%98%e4%ba%8b/">社会保険労務士による記事</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e6%83%85%e5%a0%b1/">リリース情報</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e6%9c%88%e9%a1%8d%e5%a4%89%e6%9b%b4/">月額変更</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e6%99%82%e7%9f%ad%e5%8b%a4%e5%8b%99/">時短勤務</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e5%8a%b4%e5%8b%99%e5%9f%ba%e7%a4%8e%e7%9f%a5%e8%ad%98/">労務基礎知識</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e5%a3%ab%e6%a5%ad/">士業</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e4%ba%ba%e4%ba%8b%e7%ae%a1%e7%90%86/">人事管理</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e6%a5%ad%e5%8b%99%e5%8a%b9%e7%8e%87%e5%8c%96/">業務効率化</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e6%a5%ad%e5%8b%99%e6%94%b9%e5%96%84/">業務改善</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%83%88%e3%83%ac%e3%83%b3%e3%83%89%e3%83%bb%e8%aa%bf%e6%9f%bb/">トレンド・調査</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e5%ae%9a%e6%99%82%e6%b1%ba%e5%ae%9a/">定時決定</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%81%9d%e3%81%ae%e4%bb%96/">その他</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e7%a6%8f%e5%88%a9%e5%8e%9a%e7%94%9f/">福利厚生</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e9%80%a3%e6%90%ba/">システム連携</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e6%a1%88%e5%86%85/">イベント案内</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc/">インタビュー</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88/">イベントレポート</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e5%b0%8e%e5%85%a5/">システム導入</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e4%bd%8f%e6%b0%91%e7%a8%8e/">住民税</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e6%93%8d%e4%bd%9c%e6%96%b9%e6%b3%95/">操作方法</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%82%b9%e3%83%9e%e3%83%9b%e3%82%a2%e3%83%97%e3%83%aa/">スマホアプリ</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e9%80%80%e8%81%b7/">退職</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e9%9b%bb%e5%ad%90%e7%94%b3%e8%ab%8b/">電子申請</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%82%b7%e3%83%95%e3%83%88/">シフト</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/1%e5%b9%b4%e5%8d%98%e4%bd%8d%e3%81%ae%e5%a4%89%e5%bd%a2%e5%8a%b4%e5%83%8d%e6%99%82%e9%96%93%e5%88%b6/">1年単位の変形労働時間制</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/1%e3%83%b6%e6%9c%88%e3%81%ae%e5%a4%89%e5%bd%a2%e5%8a%b4%e5%83%8d%e6%99%82%e9%96%93%e5%88%b6/">1ヶ月の変形労働時間制</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e3%83%95%e3%83%ac%e3%83%83%e3%82%af%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%a0/">フレックスタイム</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e7%ae%a1%e7%90%86%e7%9b%a3%e7%9d%a3%e8%80%85/">管理監督者</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e5%8a%b4%e5%83%8d%e4%bf%9d%e9%99%ba/">労働保険</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e7%a4%be%e4%bc%9a%e4%bf%9d%e9%99%ba/">社会保険</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/web%e6%98%8e%e7%b4%b0/">Web明細</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e9%80%9a%e5%8b%a4%e6%89%8b%e5%bd%93/">通勤手当</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e6%8c%af%e6%9b%bf%e4%bc%91%e6%97%a5/">振替休日</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e5%b9%b4%e6%9c%ab%e8%aa%bf%e6%95%b4/">年末調整</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e7%b5%a6%e4%b8%8e%e8%a8%88%e7%ae%97/">給与計算</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e6%89%93%e5%88%bb/">打刻</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e4%bc%91%e6%97%a5%e5%87%ba%e5%8b%a4/">休日出勤</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e6%ae%8b%e6%a5%ad/">残業</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e6%9c%89%e7%b5%a6%e4%bc%91%e6%9a%87/">有給休暇</a></li>
+                                <li><a href="https://cloud-station.jp/blog/tag/%e5%8b%a4%e6%80%a0%e7%ae%a1%e7%90%86/">勤怠管理</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- .top_blog_tag -->
+                
+                <div class="top_blog_latest">
+                    <h2>最新記事</h2>
+                    <div class="news_load">
+                        <ol class="top_blog_latest_list news_list slick-initialized slick-slider"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
+                            <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 12100px; transform: translate3d(-1100px, 0px, 0px);"><li class="slick-slide slick-cloned" style="width: 500px;" tabindex="-1" data-slick-index="-2" id="" aria-hidden="true"><a href="https://cloud-station.jp/blog/release20240513/" tabindex="-1">
+                                   <figure class="pc"><img width="250" height="141" src="https://cloud-station.jp/blog/wp-content/uploads/2024/05/02c0581123aac6e7fde4e9f2a7c10259-250x141.jpg" class="attachment-latest-thum size-latest-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2024/05/02c0581123aac6e7fde4e9f2a7c10259-250x141.jpg 250w, https://cloud-station.jp/blog/wp-content/uploads/2024/05/02c0581123aac6e7fde4e9f2a7c10259-330x186.jpg 330w" sizes="(max-width: 250px) 100vw, 250px"></figure>
+                       <figure class="sp"><img width="330" height="186" src="https://cloud-station.jp/blog/wp-content/uploads/2024/05/02c0581123aac6e7fde4e9f2a7c10259-330x186.jpg" class="attachment-reco-thum size-reco-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2024/05/02c0581123aac6e7fde4e9f2a7c10259-330x186.jpg 330w, https://cloud-station.jp/blog/wp-content/uploads/2024/05/02c0581123aac6e7fde4e9f2a7c10259-250x141.jpg 250w" sizes="(max-width: 330px) 100vw, 330px"></figure>
+                                   <div>
+                           <p class="cate">クラウド労務</p>
+                           <p class="tit">TECO Designが勝手に表彰! 2023年度下半期、最も熱いリリースを表彰する熱リリアワードを発表</p>
+                           <ul class="tag">
+                           <li>トレンド・調査</li><li>リリース情報</li><li>勤怠管理</li>                </ul>
+                           <p class="date">2024年5月13日</p>
+                       </div>
+                  </a></li><li class="slick-slide slick-cloned" style="width: 500px;" tabindex="-1" data-slick-index="-1" id="" aria-hidden="true"><a href="https://cloud-station.jp/blog/roumunews202405-02/" tabindex="-1">
+                                   <figure class="pc"><img width="250" height="141" src="https://cloud-station.jp/blog/wp-content/uploads/2024/05/a3b22208af4e7c43ac818d47654fac26-250x141.png" class="attachment-latest-thum size-latest-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2024/05/a3b22208af4e7c43ac818d47654fac26-250x141.png 250w, https://cloud-station.jp/blog/wp-content/uploads/2024/05/a3b22208af4e7c43ac818d47654fac26-330x186.png 330w" sizes="(max-width: 250px) 100vw, 250px"></figure>
+                       <figure class="sp"><img width="330" height="186" src="https://cloud-station.jp/blog/wp-content/uploads/2024/05/a3b22208af4e7c43ac818d47654fac26-330x186.png" class="attachment-reco-thum size-reco-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2024/05/a3b22208af4e7c43ac818d47654fac26-330x186.png 330w, https://cloud-station.jp/blog/wp-content/uploads/2024/05/a3b22208af4e7c43ac818d47654fac26-250x141.png 250w" sizes="(max-width: 330px) 100vw, 330px"></figure>
+                                   <div>
+                           <p class="cate">クラウド労務</p>
+                           <p class="tit">【Week2】主要人事労務クラウドサービス＋αリリース情報！ 毎週更新(5/4～5/10分)</p>
+                           <ul class="tag">
+                           <li>リリース情報</li><li>業務効率化</li><li>業務改善</li>                </ul>
+                           <p class="date">2024年5月10日</p>
+                       </div>
+                  </a></li><li class="slick-slide slick-current slick-active" style="width: 500px;" tabindex="0" data-slick-index="0" aria-hidden="false"><a href="https://cloud-station.jp/blog/sharoushiblog20240612/" tabindex="0">
+                                   <figure class="pc"><img width="250" height="141" src="https://cloud-station.jp/blog/wp-content/uploads/2024/05/0f42972cfeb34dcc774ffb934e88673d-250x141.png" class="attachment-latest-thum size-latest-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2024/05/0f42972cfeb34dcc774ffb934e88673d-250x141.png 250w, https://cloud-station.jp/blog/wp-content/uploads/2024/05/0f42972cfeb34dcc774ffb934e88673d-330x186.png 330w" sizes="(max-width: 250px) 100vw, 250px"></figure>
+                       <figure class="sp"><img width="330" height="186" src="https://cloud-station.jp/blog/wp-content/uploads/2024/05/0f42972cfeb34dcc774ffb934e88673d-330x186.png" class="attachment-reco-thum size-reco-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2024/05/0f42972cfeb34dcc774ffb934e88673d-330x186.png 330w, https://cloud-station.jp/blog/wp-content/uploads/2024/05/0f42972cfeb34dcc774ffb934e88673d-250x141.png 250w" sizes="(max-width: 330px) 100vw, 330px"></figure>
+                                   <div>
+                           <p class="cate">労務知識・ノウハウ</p>
+                           <p class="tit">【第24回】障害者雇用担当者に知ってほしい年金のこと</p>
+                           <ul class="tag">
+                           <li>リリース情報</li><li>業務効率化</li><li>業務改善</li><li>社会保険労務士による記事</li>                </ul>
+                           <p class="date">2024年6月12日</p>
+                       </div>
+                  </a></li><li class="slick-slide slick-active" style="width: 500px;" tabindex="0" data-slick-index="1" aria-hidden="false"><a href="https://cloud-station.jp/blog/sharoushiblog20240605/" tabindex="0">
+                                   <figure class="pc"><img width="250" height="141" src="https://cloud-station.jp/blog/wp-content/uploads/2024/04/80226375_2519131395011179_3288979470152630272_n-250x141.jpg" class="attachment-latest-thum size-latest-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2024/04/80226375_2519131395011179_3288979470152630272_n-250x141.jpg 250w, https://cloud-station.jp/blog/wp-content/uploads/2024/04/80226375_2519131395011179_3288979470152630272_n-330x186.jpg 330w" sizes="(max-width: 250px) 100vw, 250px"></figure>
+                       <figure class="sp"><img width="330" height="186" src="https://cloud-station.jp/blog/wp-content/uploads/2024/04/80226375_2519131395011179_3288979470152630272_n-330x186.jpg" class="attachment-reco-thum size-reco-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2024/04/80226375_2519131395011179_3288979470152630272_n-330x186.jpg 330w, https://cloud-station.jp/blog/wp-content/uploads/2024/04/80226375_2519131395011179_3288979470152630272_n-250x141.jpg 250w" sizes="(max-width: 330px) 100vw, 330px"></figure>
+                                   <div>
+                           <p class="cate">労務知識・ノウハウ</p>
+                           <p class="tit">【第23回】給与計算チェックリスト</p>
+                           <ul class="tag">
+                           <li>リリース情報</li><li>業務効率化</li><li>業務改善</li><li>社会保険労務士による記事</li>                </ul>
+                           <p class="date">2024年6月5日</p>
+                       </div>
+                  </a></li></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button></ol>
+                    </div>
+                </div><!-- .top_blog_latest -->
+        
+                <div class="top_blog_recommend">
+                    <h2>おすすめ記事</h2>
+                    <div class="reco_load">
+                        <ol class="top_blog_recommend_list reco_list slick-initialized slick-slider">
+                            <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
+                            <div class="slick-list draggable">
+                                <div class="slick-track" style="opacity: 1; width: 9460px; transform: translate3d(-860px, 0px, 0px);">
+                                    <li class="slick-slide slick-cloned" style="width: 380px;" tabindex="-1" data-slick-index="-2" id="" aria-hidden="true">
+                                        <a href="https://cloud-station.jp/blog/release20231222/" tabindex="-1">
+                                            <figure>
+                                                <img width="330" height="186" src="https://cloud-station.jp/blog/wp-content/uploads/2023/12/image-1-330x186.png" class="attachment-reco-thum size-reco-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2023/12/image-1-330x186.png 330w, https://cloud-station.jp/blog/wp-content/uploads/2023/12/image-1-250x141.png 250w" sizes="(max-width: 330px) 100vw, 330px">
+                                            </figure>
+                                            <div>
+                                                <p class="cate">イベント案内</p>
+                                                <p class="tit">2社追加！合計7プロダクトを体験できるCLOUD STATIONで紙の手続きに別れを告げよう！</p>
+                                                <p class="date">2023年12月22日</p>
+                                                <ul class="tag">
+                                                    <li>システム導入</li>
+                                                    <li>システム連携</li>
+                                                    <li>トレンド・調査</li>
+                                                    <li>休日出勤</li>
+                                                    <li>勤怠管理</li>
+                                                    <li>士業</li>
+                                                    <li>年末調整</li>
+                                                    <li>打刻</li>
+                                                    <li>振替休日</li>
+                                                    <li>有給休暇</li>
+                                                    <li>業務効率化</li>
+                                                    <li>業務改善</li>
+                                                    <li>残業</li>
+                                                    <li>給与計算</li>
+                                                    <li>通勤手当</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="slick-slide slick-cloned" style="width: 380px;" tabindex="-1" data-slick-index="-1" id="" aria-hidden="true">
+                                        <a href="https://cloud-station.jp/blog/release20231222-2/" tabindex="-1">
+                                            <figure>
+                                                <img width="330" height="186" src="https://cloud-station.jp/blog/wp-content/uploads/2023/12/55072-48-79c32ced420884cf37df17159e24118c-1280x750-1-330x186.webp" class="attachment-reco-thum size-reco-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2023/12/55072-48-79c32ced420884cf37df17159e24118c-1280x750-1-330x186.webp 330w, https://cloud-station.jp/blog/wp-content/uploads/2023/12/55072-48-79c32ced420884cf37df17159e24118c-1280x750-1-250x141.webp 250w" sizes="(max-width: 330px) 100vw, 330px">
+                                            </figure>
+                                            <div>
+                                                <p class="cate">イベント案内</p>
+                                                <p class="tit">メディア系社労士 ＷＩＬＬ代表山本先生直伝！！</p>
+                                                <p class="date">2023年12月22日</p>
+                                                <ul class="tag">
+                                                    <li>システム導入</li>
+                                                    <li>システム連携</li>
+                                                    <li>トレンド・調査</li>
+                                                    <li>休日出勤</li>
+                                                    <li>勤怠管理</li>
+                                                    <li>士業</li>
+                                                    <li>年末調整</li>
+                                                    <li>打刻</li>
+                                                    <li>振替休日</li>
+                                                    <li>有給休暇</li>
+                                                    <li>業務効率化</li>
+                                                    <li>業務改善</li>
+                                                    <li>残業</li>
+                                                    <li>給与計算</li>
+                                                    <li>通勤手当</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="slick-slide slick-current slick-active" style="width: 380px;" tabindex="0" data-slick-index="0" aria-hidden="false">
+                                        <a href="https://cloud-station.jp/blog/release20240513/" tabindex="0">
+                                            <figure>
+                                                <img width="330" height="186" src="https://cloud-station.jp/blog/wp-content/uploads/2024/05/02c0581123aac6e7fde4e9f2a7c10259-330x186.jpg" class="attachment-reco-thum size-reco-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2024/05/02c0581123aac6e7fde4e9f2a7c10259-330x186.jpg 330w, https://cloud-station.jp/blog/wp-content/uploads/2024/05/02c0581123aac6e7fde4e9f2a7c10259-250x141.jpg 250w" sizes="(max-width: 330px) 100vw, 330px">
+                                            </figure>
+                                            <div>
+                                                <p class="cate">クラウド労務</p>
+                                                <p class="tit">TECO Designが勝手に表彰! 2023年度下半期、最も熱いリリースを表彰する熱リリアワードを発表</p>
+                                                <p class="date">2024年5月13日</p>
+                                                <ul class="tag">
+                                                    <li>トレンド・調査</li>
+                                                    <li>リリース情報</li>
+                                                    <li>勤怠管理</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="slick-slide slick-active" style="width: 380px;" tabindex="0" data-slick-index="1" aria-hidden="false">
+                                        <a href="https://cloud-station.jp/blog/release20240408/" tabindex="0">
+                                            <figure>
+                                                <img width="330" height="186" src="https://cloud-station.jp/blog/wp-content/uploads/2023/10/4807f5794259685914197dc249bd8d09-330x186.jpg" class="attachment-reco-thum size-reco-thum wp-post-image" alt="" loading="lazy" srcset="https://cloud-station.jp/blog/wp-content/uploads/2023/10/4807f5794259685914197dc249bd8d09-330x186.jpg 330w, https://cloud-station.jp/blog/wp-content/uploads/2023/10/4807f5794259685914197dc249bd8d09-250x141.jpg 250w" sizes="(max-width: 330px) 100vw, 330px">
+                                            </figure>
+                                            <div>
+                                                <p class="cate">クラウド人事管理</p>
+                                                <p class="tit">【掲載実績】労基旬報オンラインに代表杉野の記事が掲載されました（第5回）</p>
+                                                <p class="date">2024年4月8日</p>
+                                                <ul class="tag">
+                                                    <li>インタビュー</li>
+                                                    <li>システム導入</li>
+                                                    <li>トレンド・調査</li>
+                                                    <li>人事管理</li>
+                                                    <li>掲載実績</li>
+                                                    <li>業務効率化</li>
+                                                    <li>業務改善</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                </div>
+                            </div>
+                            <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button>
+                        </ol>
+                    </div>   
+                </div>
+            </section><!-- .top_blog -->
+    
+            <section class="top_service">
+                <div class="inner">
+                    <h2><span>自社にあっている<br class="sp_inline">クラウドサービスがあるのか</span>サービスを<br class="sp_inline">比較できます</h2>
+                    <ul>
+                        <li><a href="./seminar.html">
+                            <h3><span>WORKSHOP</span><em>セミナーで比較</em></h3>
+                            <figure><div><img src="images/top_service_img01.jpg" alt="セミナーで比較" width="660" height="360"></div></figure>
+                            <h4>実際に手を動かして、質問・アドバイスも受けられる</h4>
+                            <p>はじめて学ぶクラウド、運用・定着のコツなど、これまで200以上の導入実績を元にしたクラウドサービスのはじめかた、利用方法を学ぶことができます。定期開催している数あるワークショップの中から体験できます。</p>
+                        </a></li>
+                        <li><a href="https://cloud-station.jp/blog/">
+                            <h3><span>CLOUD</span><em>クラウドで比較</em></h3>
+                            <figure><div><img src="images/top_service_img02.jpg" alt="クラウドで比較" width="660" height="360"></div></figure>
+                            <h4>豊富なオンラインコンテンツからサービスを比較</h4>
+                            <p>本サイト内のコンテンツでクラウドを比較できます。勤怠管理、給与計算などの実務に寄り添った視点で、サービス比較コンテンツを発信しています。単純な機能比較ではなく、実際に勤怠管理や給与計算、また選定のポイントとなるコンテンツを配信します。</p>
+                        </a></li>
+                    </ul>
+                </div><!-- .inner -->
+            </section><!-- .top_service -->
+        </div>
+        
+    </main>
+    <footer>
+        <div class="pagetop pc">
+           <div class="pagetop_inner"><img src="images/pagetop2.svg" width="75" height="75" alt="pagetop"></div>
+       </div>
+       <div class="pagetop2 sp">
+           <div>
+               <img src="images/pagetop2.svg" alt="pagetop" width="50" height="50">
+           </div>	
+       </div><!--.pagetop-->
+       <div class="footer_info">
+           <div class="teco_info">
+               <p>運営会社</p>
+               <a class="teco_info_logo" href="https://teco-design.jp/" target="_blank"><img src="images/teco_logo.svg" alt="TECO Design"></a>
+               <dl class="teco_info_sns">
+                   <dt>Follow us</dt>
+                   <dd>
+                       <ul>
+                           <li><a href="https://www.youtube.com/channel/UCxOxEFQpkRWNQDQAedn0jNQ" target="_blank"><img src="images/teco_sns_icon01.png" alt="Youtube" width="22" height="20"></a></li>
+                           <li><a href="https://twitter.com/CLOUDSTATION_TC" target="_blank"><img src="images/teco_sns_icon02.png" alt="Twitter" width="21" height="20"></a></li>
+                           <li><a href="https://www.facebook.com/CLOUDSTATIONJP/" target="_blank"><img src="images/teco_sns_icon03.png" alt="Facebook" width="11" height="20"></a></li>
+                           <li><a href="https://www.instagram.com/official_tecodesign/" target="_blank"><img src="images/teco_sns_icon04.png" alt="Instagram" width="18" height="20"></a></li>
+                           <li><a href="https://note.com/cloudstation" target="_blank"><img src="images/teco_sns_icon05.png" alt="Note" width="18" height="20"></a></li>
+                       </ul>
+                   </dd>
+               </dl>            
+           </div><!-- .teco_info -->
+           
+           <div class="teco_info_bnr">
+               <ul>
+                   <li><a href="https://moneyforward.com/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr01.png" alt="マネーフォワード" width="255" height="85"></a></li>
+                   <li><a href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr04_2.png" alt="freee" width="255" height="85"></a></li>
+                   <li><a href="https://www.ieyasu.co/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr05.png" alt="IEYASU" width="255" height="85"></a></li>
+                   <li><a href="https://www.kingtime.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr06.png" alt="KINGofTIME" width="255" height="85"></a></li>
+                   <li><a href="https://kitera-cloud.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr25.png" alt="KiteRa" width="255" height="85"></a></li>
+                   <li><a href="https://opluswork.com/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr08.png" alt="oplus" width="255" height="85"></a></li>
+                   <!--<li><a href="https://toaster.how/" target="_blank"><img src="../images/teco_info_bnr10.png" alt="toaster team トースターチーム" width="255" height="85"></a></li>-->
+                   <li><a href="https://www.hitomawari.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr11.png" alt="ヒトマワリ" width="255" height="85"></a></li>
+                   <!--<li><a href="https://hrbase.jp/" target="_blank"><img src="../images/teco_info_bnr12.png" alt="HRbase PRO" width="255" height="85"></a></li>-->
+                   <!--<li><a href="https://www.cyzen.cloud/" target="_blank"><img src="../images/teco_info_bnr13.png" alt="cyzen" width="255" height="85"></a></li>-->
+                   <li><a href="https://all.jobcan.ne.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr14.png" alt="ジョブカン" width="255" height="85"></a></li>
+                   <li><a href="https://bizer.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr15.png" alt="Bizer team" width="255" height="85"></a></li>
+                   <!-- <li><a href="https://www.officestation.jp/pro/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr16.png" alt="オフィスステーション Pro" width="255" height="85"></a></li> -->
+                   <!--<li><a href="https://www.welcomehr.net/" target="_blank" rel="noopener noreferrer"><img src="../images/teco_info_bnr017.png" alt="WelcomeHR" width="255" height="85"></a></li>-->
+                   <!--タイマー設置-->
+                   <div class="js-time_limited" data-appear_time="2023/07/28 09:00:00" data-disappear_time="2023/07/31 23:59:59"><li>
+                       <a href="https://noco.sale/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr018.png" alt="nocoセールス" width="255" height="85"></a>
+                   </li></div>
+                   <li><a href="https://www.recoru.in/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr019.png" alt="レコル" width="255" height="85"></a></li>
+                   <!--//タイマー設置//-->
+                   <!--タイマー設置-->
+                   <!--<li><div class="js-time_limited" data-appear_time="2023/04/28 11:30:00" data-disappear_time="2023/04/30 23:59:59">
+                     <a href="https://www.i-abs.co.jp/product/" target="_blank" rel="noopener noreferrer"><img src="../images/teco_info_bnr20.png" alt="Cyber Xeed" width="255" height="85"></a>
+                   </div></li>-->
+                   <!--<li><a href="https://www.i-abs.co.jp/product/" target="_blank" rel="noopener noreferrer"><img src="../images/teco_info_bnr20.png" alt="Cyber Xeed" width="255" height="85"></a></li>-->
+                   <!--//タイマー設置//-->
+                   <li><a href="https://www.fondesk.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr21.png" alt="fondesk" width="255" height="85"></a></li>
+                   <li><a href="https://ak4.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr22.png" alt="AKASHI" width="255" height="85"></a></li>
+                   <li><a href="https://byard.io/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr23.png" alt="BYARD" width="255" height="85"></a></li>
+                   <li><a href="https://www.obc.co.jp/bugyo-cloud" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr24.png" alt="OBC・奉行クラウド" width="255" height="85"></a></li>
+                   <li><a href="https://smarthr.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr26.png" alt="SmartHR" width="255" height="85"></a></li>
+                   <li><a href="https://hcm-jinjer.com/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr27.png" alt="jinjer" width="255" height="85"></a></li>
+                   <li><a href="https://www.seikotrust.jp/lp/employment-agreement/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr28.png" alt="セイコーソリューションズ株式会社" width="255" height="85"></a></li>
+                   <li><a href="https://manage.itcs.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr29.png" alt="株式会社ITCS" width="255" height="85"></a></li>
+                   <li><a href="https://www.yayoi-kk.co.jp/lp/kyuyo-meisai/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr30.jpg" alt="弥生給与Next" width="255" height="85"></a></li>
+                   <li><a href="https://onehr.jp/" target="_blank" rel="noopener noreferrer"><img src="images/teco_info_bnr31.png" alt="One人事" width="255" height="85"></a></li>
+               </ul>
+               
+               <a class="teco_info_bnr_btn" href="published.html">掲載希望の方へ</a>
+           </div><!-- .teco_info_bnr -->
+       </div><!-- .footer_info -->
+     
+       <div class="footer_navi">
+           <div>
+               <ul class="footer_main_nav">
+                   <li><a href="index.html">ホーム</a></li>
+                   <li><a href="first.html">はじめての方へ</a></li>
+                   <li><a href="access.html">来館予約・アクセス</a></li>
+                   <li><a href="online.html">オンライン相談</a></li>
+                   <li><a href="https://cloud-station.jp/blog/movies/">動画ライブラリ</a></li>
+               </ul>
+           </div>
+           <dl>
+               <dt><a href="showroom.html"><span>SHOWROOM</span>ショールーム</a></dt>
+               <dd>
+                   <ul>
+                       <li><a href="showroom.html#ank01">クラウド打刻体験</a></li>
+                       <li><a href="showroom.html#ank02">クラウド給与計算実演／人事管理関連サービス</a></li>
+                       <li><a href="showroom.html#ank03">個室ブース</a></li>
+                       <li><a href="showroom.html#ank04">アナログ体験ゾーン</a></li>
+                       <li><a href="showroom.html#ank05">業務改善／シフト管理</a></li>
+                   </ul>
+               </dd>
+           </dl>
+   
+           <dl>
+               <dt><a href="seminar.html"><span>SEMINAR</span>セミナー情報</a></dt>
+               <dd>
+                   <ul>
+                       <li><a href="seminar.html#ank01">はじめてシリーズ</a></li>
+                       <li><a href="seminar.html#ank02">運用ワークショップ</a></li>
+                       <li><a href="seminar.html#ank03">クラウドは金曜日</a></li>
+                       <li><a href="seminar.html#ank04">開催予定のワークショップ一覧</a></li>
+                   </ul>
+               </dd>
+           </dl>
+   
+           <dl>
+               <dt><a href="service.html"><span>SERVICE</span>取り扱いサービス</a></dt>
+               <dd>
+                   <ul>
+                       <li><a href="service.html#ank01">freee人事労務</a></li>
+                       <li><a href="service.html#ank02">マネーフォワードクラウド</a></li>
+                       <!-- <li><a href="service.html#ank03">マネーフォワードクラウド給与</a></li> -->
+                       <li><a href="service.html#ank04">HRMOS勤怠</a></li>
+                       <li><a href="service.html#ank05">KING OF TIME</a></li>
+                       <li><a href="service.html#ank17">KiteRa</a></li>
+                       <!--<li><a href="../service.html#ank06">toaster team</a></li>-->
+                       <li><a href="service.html#ank06">oplus</a></li>
+                       <li><a href="service.html#ank07">ヒトマワリ</a></li>
+                       <!--<li><a href="../service.html#ank09">HRbase PRO</a></li>-->
+                       <!--<li><a href="../service.html#ank10">cyzen</a></li>-->
+                       <li><a href="service.html#ank08">ジョブカン</a></li>
+                       <li><a href="service.html#ank09">Bizer team</a></li>
+                       <!-- <li><a href="service.html#ank10">オフィスステーション Pro</a></li> -->
+                       <!--<li><a href="../service.html#ank14">WelcomeHR</a></li>-->
+                       <div class="js-time_limited" data-appear_time="2023/07/28 09:00:00" data-disappear_time="2023/07/31 23:59:59"><li><a href="service.html#ank11">nocoセールス</a></li></div>
+                       <li><a href="service.html#ank12">RecoRu</a></li>
+                       <li><a href="service.html#ank13">fondesk</a></li>
+                       <li><a href="service.html#ank14">AKASHI</a></li>
+                       <li><a href="service.html#ank15">BYARD</a></li>
+                       <li><a href="service.html#ank16">奉行クラウド</a></li>
+                       <li><a href="service.html#ank18">SmartHR</a></li>
+                       <li><a href="service.html#ank19">ジンジャー</a></li>
+                       <li><a href="service.html#ank20">かんたん雇用契約forクラウド</a></li>
+                       <li><a href="service.html#ank21">manage</a></li>
+                       <li><a href="service.html#ank22">弥生給与 Next</a></li>
+                       <li><a href="service.html#ank23">One人事</a></li>
+                   </ul>
+               </dd>
+           </dl>
+       </div><!-- .footer_navi -->
+       <p class="copy">&copy; 株式会社TECO Design</p>
+   </footer>
+    <script src="js/jquery-3.5.1.min.js"></script> 
+    <script src="js/main.js"></script> 
+    <script src="js/fonts.js"></script> 
+
+    <script src="js/slick/slick.min.js"></script> 
+    <script type="text/javascript">
+        // ブログ
+        $(function(){
+            $(".tag_load").load("/blog/ .tag_list");
+            $(".news_load").load("/blog/ .news_list", function() {
+                $('.top_blog_latest_list').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    autoplay: false,
+                    autoplaySpeed: 1000,
+                    responsive: [
+                        {
+                            breakpoint: 1770,
+                            settings: {
+                                slidesToShow: 2,
+                            },
+                        },
+                        {
+                            breakpoint: 640,
+                            settings: {
+                                slidesToShow: 1,
+                            },
+                        },
+                    ]
+                });
+            });
+            
+            $(".reco_load").load("/blog/ .reco_list", function() {
+                $('.top_blog_recommend_list').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    autoplay: false,
+                    autoplaySpeed: 1000,
+                    responsive: [
+                        {
+                            breakpoint: 1757,
+                            settings: {
+                                slidesToShow: 2,
+                            },
+                        },
+                        {
+                            breakpoint: 640,
+                            settings: {
+                                slidesToShow: 1,
+                            },
+                        },
+                    ]
+                });
+            });
+        });
+        
+        $(function() {
+            $(window).on("scroll", function() {
+                if ($(this).scrollTop() > 100) {
+                    $(".btn_area_main").fadeIn(300);
+                    $(".btn_area_main").css("display","flex");
+                    } else {
+                    $(".btn_area_main").fadeOut(300);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

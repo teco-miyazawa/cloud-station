@@ -1,0 +1,204 @@
+/*============================================================================
+
+	#mainvisual
+
+============================================================================*/
+/* 下層ページのメインビジュアルの高さ、背景画像（トップページの高さはtop.css参照） */
+#mainvisual {
+	position: relative;
+	display: block;
+    box-sizing: border-box;
+    width: 100%;
+	height: 400px;
+    /* background-image: url("../images/mainvisual_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: #fff solid;
+    border-width: 25px 25px 0 25px; */
+}
+#mainvisual .inner {
+	display: table;
+	position: relative;
+	height: 375px;
+	width: 1150px;
+	margin: 0 auto;
+}
+#mainvisual .mainvisual_wrap_pc{
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	z-index: 1;
+}
+#mainvisual .mainvisual_wrap_sp{
+	display: none;
+}
+#mainvisual .mainvisual_wrap_pc h2 {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+    font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
+    font-weight: 700;
+    /*font-size: 50px;*/
+	font-size: 36px;
+	line-height: 1.5;
+    /*-webkit-text-stroke: 1px #000; /* webkitのベンダープレフィックス */
+    /*text-stroke: 1px #000;         /*　ベンダープレフィックスのない指定方法 */
+    /*background-image: linear-gradient(0deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);
+    -webkit-background-clip: text;*/
+    /*color: transparent;*/
+}
+#mainvisual .mainvisual_wrap_pc h2 span {
+	/*font-size: 25px;*/
+	font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 2px 2px 5px #030304, -2px 2px 5px #b7854d, 2px -2px 5px #b7854d, -2px -2px 5px #b7854d;
+    -webkit-text-stroke: 1px #fff;
+    text-stroke: 1px #fff;
+}
+.topinfo_btn_box {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mainvisual_yt_btn {
+    /*position: absolute;*/
+	position: relative;
+	/*max-width: 335px;*/
+	max-width: 380px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	padding: 1% 2%;
+    /*right: 13.4%;*/
+    /*bottom: 88px;*/
+    display: block;
+	bottom: -175px;
+    box-sizing: border-box;
+    /*width: 194px;
+    height: 194px;*/
+    /*padding-top: 84px;
+    border-radius: 100%;*/
+    text-align: center;
+    font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #000;
+    /*background: url("../images/mainvisual_yt_btn_icon.png") center 46px no-repeat;*/
+    /*background-color: #fff;*/
+	background-color: rgba(255 255 255 / 48%);
+    box-shadow: 0 0 2px #030304, 0 1px 5px #b7854d, 0 0 0 #b7854d, 2px 1px 1px #b7854d;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.mainvisual_yt_btn:first-child,.mainvisual_yt_btn:last-child {
+	padding-top: 24px !important;
+}
+.mainvisual_yt_btn:nth-child(2):before {
+  position: absolute;	
+  content: "";
+  right: calc(50% - 20px);
+  top: 95px;
+  bottom: 0;
+  margin: auto;
+  width:40px;
+  height:53px;
+  background-image:url(../images/click_hand.png);
+  background-size:cover;
+  transition: 0.3s ease-in-out;
+  transform:rotate(-15deg); 	
+}
+.mainvisual_yt_btn:hover {
+    -webkit-transform: scale(0.93);
+    transform: scale(0.93);
+    color: #000;
+}
+.mainvisual_yt_btn:hover:before{
+  top: 45px;
+  transform:rotate(360deg); 
+  opacity: 0.7;	
+}
+/*.mainvisual_yt_btn::before {
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    box-sizing: border-box;
+    width: calc(100% + 14px);
+    height: calc(100% + 14px);
+    border: 4px solid #da1725;
+    border-radius: 100%;
+    content: "";
+}*/
+
+
+/* 下層ページの見出し */
+.mainvisual_headline {
+	display: table-cell;
+    padding-top: 90px;
+	padding-bottom:2px;
+	letter-spacing: 0.15em;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+    text-shadow: 0px 0px 19px rgba(0, 0, 0, 0.8);
+}
+.mainvisual_headline p {
+    font-family: futura-pt,sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    line-height: 1;
+}
+.mainvisual_headline p.headline {
+    margin-top: 10px;
+    font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
+    font-weight: 600;
+	font-size: 26px;
+    letter-spacing: -0.05em;
+    line-height: 1;
+}
+
+/* 背景変更用 */
+#mainvisual.bg01{
+	background-image:url(../images/main_bg01.png);
+	background-position: center 0%;
+	background-size: cover;
+}
+#mainvisual.bg02{
+	background-image:url(../images/main_bg02.png) ;
+	background-position: center 0%;
+	background-size: cover;
+	
+}
+#mainvisual.bg03{
+	background-image:url(../images/main_bg03.png) ;
+	background-position: center 0%;
+	background-size: cover;
+}
+#mainvisual.bg04{
+	background-image:url(../images/main_bg04.png) ;
+	background-position: center 0%;
+	background-size: auto;
+}
+#mainvisual.bg05{
+	background-image:url(../images/main_bg05.png);
+	background-position: center 0%;
+	background-size: cover;
+}
+
+
+
+
+
